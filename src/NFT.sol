@@ -69,4 +69,9 @@ contract NFT is ERC721URIStorage {
     function getWeatherData() public view returns (WeatherData memory) {
         return weather;
     }
+
+    // Test function return tokenId
+    function getTokenId() public view returns (uint256) {
+        return tokenId;
+    }
 }
